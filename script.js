@@ -7,8 +7,8 @@ let secondNum = 0;
 let operator = '';
 
 function compute() {
-    firstNum = parseInt(firstNum);
-    secondNum = parseInt(secondNum);
+    firstNum = parseFloat(firstNum);
+    secondNum = parseFloat(secondNum);
     switch (operator) {
         case ('%'):
             return firstNum % secondNum;
